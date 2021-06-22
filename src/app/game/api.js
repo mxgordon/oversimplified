@@ -1,4 +1,4 @@
-import {SERVER_PORT} from '../constants'
+import {SERVER_PORT} from '../../constants'
 
 
 const headers = {

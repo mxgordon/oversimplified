@@ -1,8 +1,8 @@
 import React from 'react'
 import { Client } from 'boardgame.io/react'
-import { Oversimplified } from '../../../../game/game'
-import { OversimplifiedBoard } from '../../../../game/board'
-import {API} from '../../../../game/api'
+import { Oversimplified } from '../../game/game'
+import { OversimplifiedBoard } from '../../game/board'
+import {API} from '../../game/api'
 import { SocketIO } from 'boardgame.io/multiplayer'
 import Cookies from 'universal-cookie'
 
