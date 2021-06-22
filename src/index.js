@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './app/serviceWorker';
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
-import Pages from './components/Pages'
+import Pages from './app/components/Pages'
 import Cookies from 'universal-cookie'
 import './assets/scss/shared.scss'
 

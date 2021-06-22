@@ -1,5 +1,5 @@
 import { Delaunay } from "d3-delaunay";
-import {WIDTH, HEIGHT} from '../../src/constants'
+import {WIDTH, HEIGHT} from '../../constants'
 import { getPerimeterToAreaRatio, combine, perimeter } from'./generationUtils'
 
 // eslint-disable-next-line import/no-webpack-loader-syntax

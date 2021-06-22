@@ -1,6 +1,6 @@
 import React from 'react'
 import {API} from '../../game/api'
-import * as Buttons from '../Buttons/'
+import * as Buttons from '../Buttons'
 import BoardFetcher from '../../game/BoardFetcher'
 
 

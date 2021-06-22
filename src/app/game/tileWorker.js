@@ -1,6 +1,6 @@
 import { Delaunay } from "d3-delaunay";
 import { noise } from '@chriscourses/perlin-noise'
-import names from '../../src/names.json'
+import names from '../../names.json'
 import { getPerimeterToAreaRatio, combine, IsEnclaveError, OnlyOneConnectingPointError } from'./generationUtils'
 
 

@@ -1,5 +1,5 @@
 import { Server } from 'boardgame.io/server'
-import { Oversimplified } from "./src/game/game"
+import { Oversimplified } from "./src/app/game/game"
 import path from 'path';
 import serve from 'koa-static';
 import {SERVER_PORT} from './src/constants'
