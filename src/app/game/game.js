@@ -12,6 +12,9 @@ export const Oversimplified = {
         return { ...setupData, hands: makeHands(ctx.playOrder) }
     },
 
+    maxPlayers: 10,
+    minPlayers: 4,
+
     phases: {
         pickTiles: {
             start: true,
@@ -67,6 +70,10 @@ export const Oversimplified = {
 
     endIf: (G, ctx) => {
         return false
+    },
+
+    removePlayer: (G, id) => {
+        G.hands[id] = undefined
     },
 
     disableUndo: true,
